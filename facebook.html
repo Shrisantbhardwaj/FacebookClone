@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="stylelog.css">
+    <style>
+        .createaccount {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #42b72a; /* Example color */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftpart">
+            <h1>facebook</h1>
+            <h3>Facebook helps you connect and share with the people in your life</h3>
+        </div>
+        <div class="Rightpart">
+            <div class="loginpage">
+                <form action="index.html" method="get">
+                    <input type="text" placeholder="Email or Phone number" name="email">
+                    <input type="password" placeholder="Password" name="password">
+                    <button type="submit">Login</button>
+                </form>
+                <p>Forgot Password?</p>
+                <hr>
+                <a id="createAccountBtn" href="signup.html" class="createaccount">Create a new account</a>
+            </div>
+            <span>Create a page for a well-known person, Orchestra, or business</span>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
